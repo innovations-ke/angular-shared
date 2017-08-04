@@ -1,7 +1,7 @@
 import { enableProdMode, isDevMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app/app.module';
+import { SharedModule } from './app/shared.module';
 import { environment } from './environments/environment';
 
 if (environment.production) {
@@ -9,4 +9,4 @@ if (environment.production) {
   // isDevMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule);
+platformBrowserDynamic().bootstrapModule(SharedModule);

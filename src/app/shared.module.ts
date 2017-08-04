@@ -19,4 +19,4 @@ import { UtilitiesService } from './services/utilities.service';
         UtilitiesService
     ]
 })
-export class AppModule { }
+export class SharedModule { }
