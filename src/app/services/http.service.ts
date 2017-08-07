@@ -16,7 +16,7 @@ export class HttpService {
      * @param {Http} http
      * @memberof HttpService
      */
-    constructor(@Inject('http') private http: Http) { }
+    constructor(private http: Http) { }
 
     /**
      * This method is used to send a POST request to the server. The request is excpected to create a new object in the sever.
