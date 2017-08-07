@@ -26,3 +26,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Current Availble shared functionality
+
+1. Http Request service -  contains all rest API i.e POST, PUT, GET, DELETE
+2. Utility services - contains all the shared utility functions
+
