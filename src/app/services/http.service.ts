@@ -1,5 +1,5 @@
 import { Http, Request, Response, Headers, RequestMethod, RequestOptions } from '@angular/http';
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import 'rxjs/add/operator/timeoutWith';
 import { Observable } from 'rxjs/Rx';
 import 'rxjs/add/observable/of';
@@ -16,9 +16,7 @@ export class HttpService {
      * @param {Http} http
      * @memberof HttpService
      */
-    constructor(
-        private http: Http) { }
-
+    constructor(@Inject('http') private http: Http) { }
 
     /**
      * This method is used to send a POST request to the server. The request is excpected to create a new object in the sever.
