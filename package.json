@@ -1,6 +1,6 @@
 {
   "name": "@innovations-ke/angular-shared",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is where to add core shared staff in the font-end which is re-usable",
   "license": "MIT",
   "scripts": {
