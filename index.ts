@@ -12,10 +12,10 @@ export * from './src/services/utilities.service';
     CommonModule
   ]
 })
-export class SampleModule {
+export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: SampleModule,
+      ngModule: SharedModule,
       providers: [
         HttpService,
         UtilitiesService
