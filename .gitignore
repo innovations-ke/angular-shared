@@ -1,12 +1,14 @@
 # Node
 node_modules/*
-/node_modules
 npm-debug.log
 
+# Ignore AOT generated files
+*.ngsummary.json
+
 # TypeScript
-src/*.js
-src/*.map
-src/*.d.ts
+*.js
+*.map
+*.d.ts
 
 # JetBrains
 .idea
@@ -17,10 +19,6 @@ src/*.d.ts
 
 # VS Code
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # Windows
 Thumbs.db
@@ -32,32 +30,3 @@ Desktop.ini
 
 # Ngc generated files
 **/*.ngfactory.ts
-
-# Build files
-dist/*
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
-
-# System Files
-.DS_Store
-Thumbs.db
