@@ -1,7 +1,13 @@
 # Node
 node_modules/*
 npm-debug.log
-docs/*
+
+# Ignore AOT generated files
+*.ngsummary.json
+
+# Ignore linting
+tslint.json
+
 # DO NOT IGNORE TYPESCRIPT FILES FOR NPM
 # TypeScript
 # *.js
@@ -17,10 +23,6 @@ docs/*
 
 # VS Code
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # Windows
 Thumbs.db
@@ -29,10 +31,3 @@ Desktop.ini
 # Mac
 .DS_Store
 **/.DS_Store
-
-# Ngc generated files
-**/*.ngfactory.ts
-
-# Library files
-src/*
-build/*
