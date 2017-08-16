@@ -5,8 +5,9 @@ npm-debug.log
 # Ignore AOT generated files
 *.ngsummary.json
 
-# Ignore linting
-tslint.json
+# TypeScript
+*.js
+*.map
 
 # JetBrains
 .idea
@@ -26,5 +27,11 @@ Desktop.ini
 .DS_Store
 **/.DS_Store
 
-# src
-src/*
+# Ngc generated files
+**/*.ngfactory.ts
+
+# Omit project files
+*.json
+*.conf.js
+*.gitignore
+*.npmignore
