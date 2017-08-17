@@ -20,7 +20,7 @@
     "node_modules/@types"
   ],
   "angularCompilerOptions": {
-    "genDir": "compiled",
+    "genDir": "dist",
     "strictMetadataEmit": true
   }
 }
