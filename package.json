@@ -1,6 +1,6 @@
 {
   "name": "@innovations-ke/angular-shared",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "This is where to add core shared staff in the font-end which is re-usable",
   "license": "MIT",
   "scripts": {
@@ -24,7 +24,8 @@
   "bugs": {
     "url": "https://github.com/innovations-ke/angular-shared.git/issues"
   },
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
     "@angular/common": "^2.0.0",

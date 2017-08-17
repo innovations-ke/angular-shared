@@ -22,5 +22,11 @@
   "angularCompilerOptions": {
     "genDir": "dist",
     "strictMetadataEmit": true
+  },
+  "paths": {
+    "@angular/core": ["node_modules/@angular/core"],
+    "rxjs/*": ["node_modules/rxjs/*"],
+    "@angular/http": ["node_modules/@angular/http"],
+    "rxjs/Observable": ["node_modules/rxjs/Observable"]
   }
 }
