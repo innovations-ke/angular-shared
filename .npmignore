@@ -27,10 +27,8 @@ Desktop.ini
 **/*.ngfactory.ts
 
 # Omit project files
-src/*
 *.json
 *.conf.js
-./index.ts
 *.gitignore
 *.npmignore
 gulpfile.js
