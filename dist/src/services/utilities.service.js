@@ -73,11 +73,11 @@ var UtilitiesService = (function () {
         }
         return list;
     };
+    UtilitiesService = __decorate([
+        core_1.Injectable(),
+        __metadata("design:paramtypes", [])
+    ], UtilitiesService);
     return UtilitiesService;
 }());
-UtilitiesService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [])
-], UtilitiesService);
 exports.UtilitiesService = UtilitiesService;
 //# sourceMappingURL=utilities.service.js.map
