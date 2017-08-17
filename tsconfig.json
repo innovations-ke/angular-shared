@@ -1,32 +1,45 @@
 {
+  "angularCompilerOptions": {
+    "genDir": "dist",
+    "strictMetadataEmit": true
+  },
   "compilerOptions": {
     "noImplicitAny": true,
     "module": "commonjs",
-    "target": "ES5",
+    "target": "es5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowUnusedLabels": false,
     "noImplicitReturns": true,
     "sourceMap": true,
     "declaration": true,
-    "outDir": "./dist"
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "."
   },
   "exclude": [
     "node_modules",
     "**/*.spec.ts",
-    "dist"  
+    "dist"
   ],
-  "typeRoots" : [
-    "node_modules/@types"
+  "files": [
+    "index.ts"
   ],
-  "angularCompilerOptions": {
-    "genDir": "dist",
-    "strictMetadataEmit": true
-  },
   "paths": {
-    "@angular/core": ["node_modules/@angular/core"],
-    "rxjs/*": ["node_modules/rxjs/*"],
-    "@angular/http": ["node_modules/@angular/http"],
-    "rxjs/Observable": ["node_modules/rxjs/Observable"]
-  }
+    "@angular/core": [
+      "node_modules/@angular/core"
+    ],
+    "rxjs/*": [
+      "node_modules/rxjs/*"
+    ],
+    "@angular/http": [
+      "node_modules/@angular/http"
+    ],
+    "rxjs/Observable": [
+      "node_modules/rxjs/Observable"
+    ]
+  },
+  "typeRoots": [
+    "node_modules/@types"
+  ]  
 }
