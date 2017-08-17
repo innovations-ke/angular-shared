@@ -182,11 +182,11 @@ var HttpService = (function () {
     HttpService.prototype.handleException = function (error) {
         return Observable_1.Observable.throw(new http_exception_1.HttpException(0, 0, error.json().error, []));
     };
+    HttpService = __decorate([
+        core_1.Injectable(),
+        __metadata("design:paramtypes", [http_1.Http])
+    ], HttpService);
     return HttpService;
 }());
-HttpService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [http_1.Http])
-], HttpService);
 exports.HttpService = HttpService;
 //# sourceMappingURL=http.service.js.map

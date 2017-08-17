@@ -5,18 +5,6 @@ npm-debug.log
 # Ignore AOT generated files
 *.ngsummary.json
 
-# TypeScript
-src/**/*.js
-src/**/*.js.map
-src/**/*.d.ts
-index.js
-index.js.map
-index.d.ts
-
-dist/compiled/*
-dist/**/*.json
-dist/**/*.d.ts
-
 # JetBrains
 .idea
 .project
@@ -37,3 +25,14 @@ Desktop.ini
 
 # Ngc generated files
 **/*.ngfactory.ts
+
+# TypeScript
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+./index.js
+./index.js.map
+./index.d.ts
+
+dist/**/*.d.ts
+dist/**/*.ts
