@@ -2,18 +2,25 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "module": "commonjs",
-    "target": "es5",
-    "moduleResolution": "node",
+    "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowUnusedLabels": false,
     "noImplicitReturns": true,
-    "sourceMap": false,
-    "declaration": false,
-    "rootDir": "."
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./dist"
   },
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
-  ]
+    "**/*.spec.ts",
+    "dist"  
+  ],
+  "typeRoots" : [
+    "node_modules/@types"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "dist",
+    "strictMetadataEmit": true
+  }
 }

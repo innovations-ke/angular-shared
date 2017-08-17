@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'angular-shared';
+import { SharedModule } from 'angular-shared';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'angular-shared';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,9 +6,16 @@ npm-debug.log
 *.ngsummary.json
 
 # TypeScript
-*.js
-*.map
-*.d.ts
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+index.js
+index.js.map
+index.d.ts
+
+dist/compiled/*
+dist/**/*.json
+dist/**/*.d.ts
 
 # JetBrains
 .idea
