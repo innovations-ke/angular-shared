@@ -33,3 +33,4 @@ Desktop.ini
 *.npmignore
 src/*
 index.ts
+gulpfile.js
